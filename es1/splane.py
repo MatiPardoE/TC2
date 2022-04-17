@@ -35,8 +35,8 @@ from collections import defaultdict
 from scipy.signal import tf2zpk, TransferFunction, zpk2tf
 from IPython.display import display, Math, Markdown
 import sympy as sp
-from schemdraw import Drawing
-from schemdraw.elements import  Resistor, ResistorIEC, Capacitor, Inductor, Line, Dot, Gap, Arrow, CurrentLabelInline
+#from schemdraw import Drawing
+#from schemdraw.elements import  Resistor, ResistorIEC, Capacitor, Inductor, Line, Dot, Gap, Arrow, CurrentLabelInline
 
 
 def pp(z1, z2):
