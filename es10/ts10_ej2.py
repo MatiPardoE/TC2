@@ -23,7 +23,7 @@ YY = 3*s*(s**2+sp.Rational(7,3))/(s**2+2)/(s**2+5)
 # Restricción circuital: L2*C2 = 1 r/s
 # remoción parcial en infinito de 1/YY
 
-omega_L2C2 = 1
+omega_L2C2 = 1.5
 
 Z2, Zc1 = tc2.remover_polo_dc(1/YY, omega_zero = omega_L2C2 )
 
